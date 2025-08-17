@@ -48,3 +48,15 @@ body {
     z-index: -1;
     transform: rotate(180deg);
 }
+
+@media only screen and (min-width: 768px) {
+    .main {
+        max-width: 1024px;
+        margin: 1rem auto;
+    }
+
+    .main::before,
+    .main::after {
+        width: 70vw;
+    }
+}
