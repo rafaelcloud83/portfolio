@@ -1,0 +1,94 @@
+{
+  "name": "Rafael Ciriaco da Silva",
+  "photo": "https://github.com/rafaelcloud83/portfolio/blob/main/assets/img/foto.jpg?raw=true",
+  "job": "Desenvolvedor Full Stack",
+  "location": "Americana - SP",
+  "phone": "(19) 98182-5684",
+  "email": "rafaelcloud83@gmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "Java",
+        "logo": "https://skillicons.dev/icons?i=java"
+      },
+      {
+        "name": "Spring",
+        "logo": "https://skillicons.dev/icons?i=spring"
+      },
+      {
+        "name": "JavaScript",
+        "logo": "https://skillicons.dev/icons?i=javascript"
+      },
+      {
+        "name": "HTML",
+        "logo": "https://skillicons.dev/icons?i=html"
+      },
+      {
+        "name": "CSS",
+        "logo": "https://skillicons.dev/icons?i=css"
+      },
+      {
+        "name": "Postgresql",
+        "logo": "https://skillicons.dev/icons?i=postgres"
+      },
+      {
+        "name": "Docker",
+        "logo": "https://skillicons.dev/icons?i=docker"
+      },
+      {
+        "name": "Insomnia",
+        "logo": "https://user-images.githubusercontent.com/6686410/31217465-6adbbd18-a98d-11e7-9371-26d578182e9d.png"
+      },
+      {
+        "name": "Linux",
+        "logo": "https://skillicons.dev/icons?i=linux"
+      },
+      {
+        "name": "Windows",
+        "logo": "https://skillicons.dev/icons?i=windows"
+      }
+    ],
+    "softSkills": [
+      "Responsável",
+      "Facilidade de adaptação",
+      "Trabalho em equipe",
+      "Proatividade",
+      "Comunicação",
+      "Organização",
+      "Foco em resultados"
+    ]
+  },
+  "languages": [
+    "Português",
+    "Inglês (básico)"
+  ],
+  "portfolio": [
+    {
+      "name": "Doa Leite",
+      "url": "https://github.com/rafaelcloud83/app-doacao-leite",
+      "github": true
+    },
+    {
+      "name": "Pokedex",
+      "url": "https://github.com/rafaelcloud83/pokedex",
+      "github": true
+    },
+    {
+      "name": "EstacionaPark",
+      "url": "https://github.com/rafaelcloud83/park-api",
+      "github": true
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Desenvolvedor",
+      "period": "Janeiro 2020 - Atual",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint autem eius, molestiae quasi quis possimus accusamus recusandae quia earum iure reprehenderit laborum explicabo voluptate aut distinctio! Reiciendis mollitia est temporibus"
+    },
+    {
+      "name": "Técnico TI",
+      "period": "Jan 2016 - Dez 2019",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint autem eius, molestiae quasi quis possimus accusamus recusandae quia earum iure reprehenderit laborum explicabo voluptate aut distinctio! Reiciendis mollitia est temporibus"
+    }
+  ]
+}
