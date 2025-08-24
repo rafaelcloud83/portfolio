@@ -15,9 +15,14 @@
     <!--Arquivos CSS-->
     <link rel="stylesheet" href="/assets/css/global.css">
     <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/acordeon.css">
+    <link rel="stylesheet" href="/assets/css/languages.css">
+    <link rel="stylesheet" href="/assets/css/portfolio.css">
+    <link rel="stylesheet" href="/assets/css/experience.css">
+    <link rel="stylesheet" href="/assets/css/skills.css">
 </head>
 <body>
-    <div class="main">
+    <main class="main">
         <header class="header">
             <img src="/assets/img/foto.jpg" alt="Minha foto" class="photo">
 
@@ -26,10 +31,124 @@
             <div class="information">
                 <p class="cargo">Desenvolvedor</p>
                 <p class="local">Americana - SP</p>
-                <p class="fone">(19) 98182-5684</p>
-                <p class="email">rafaelcloud83@gmail.com</p>
+                <p class="fone">
+                    <a href="tel:(19) 98182-5684">(19) 98182-5684</a>
+                </p>
+                <p class="email">
+                    <a href="mailto:rafaelcloud83@gmail.com">rafaelcloud83@gmail.com</a>
+                </p>
             </div>
         </header>
-    </div>
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Skills</h2>
+            </button>
+            <div class="content">
+                <div class="skills">
+                    <section class="tools">
+                        <h3>Ferramentas:</h3>
+                        <ul>
+                            <li>
+                                <img src="https://skillicons.dev/icons?i=java" alt="Java" title="Java">
+                            </li>
+                            <li>
+                                <img src="https://skillicons.dev/icons?i=spring" alt="Spring" title="Spring Framework">
+                            </li>
+                            <li>
+                                <img src="https://skillicons.dev/icons?i=javascript" alt="Javascript" title="JavaScript">
+                            </li>
+                            <li>
+                                <img src="https://skillicons.dev/icons?i=html" alt="HTML" title="HTML">
+                            </li>
+                            <li>
+                                <img src="https://skillicons.dev/icons?i=css" alt="CSS" title="CSS">
+                            </li>
+                            <li>
+                                <img src="https://skillicons.dev/icons?i=postgres" alt="Postgresql" title="Postgresql">
+                            </li>
+                            <li>
+                                <img src="https://skillicons.dev/icons?i=docker" alt="Docker" title="Docker">
+                            </li>
+                            <li>
+                                <img src="https://user-images.githubusercontent.com/6686410/31217465-6adbbd18-a98d-11e7-9371-26d578182e9d.png" alt="Insomnia" title="Insomnia">
+                            </li>
+                            <li>
+                                <img src="https://skillicons.dev/icons?i=linux" alt="Linux" title="Linux">
+                            </li>
+                            <li>
+                                <img src="https://skillicons.dev/icons?i=windows" alt="Windows" title="Windows">
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="personal">
+                        <h3>Pessoal:</h3>
+                        <ul>
+                            <li>Responsável</li>
+                            <li>Facilidade de adaptação</li>
+                            <li>Trabalho em equipe</li>
+                            <li>Proatividade</li>
+                            <li>Comunicação</li>
+                            <li>Organização</li>
+                            <li>Foco em resultados</li>
+                        </ul>
+                    </section>
+                </div>
+                
+            </div>
+        </section>
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Experiência Profissional</h2>
+            </button>
+            <div class="content">
+                <ul class="experience">
+                    <li>
+                        <h3 class="title">Desenvolvedor</h3>
+                        <p class="period">Janeiro 2020 - Atual</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint autem eius, molestiae quasi quis possimus accusamus recusandae quia earum iure reprehenderit laborum explicabo voluptate aut distinctio! Reiciendis mollitia est temporibus?</p>
+                    </li>
+                    <li>
+                        <h3 class="title">Técnico TI</h3>
+                        <p class="period">Jan 2016 - Dez 2019</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint autem eius, molestiae quasi quis possimus accusamus recusandae quia earum iure reprehenderit laborum explicabo voluptate aut distinctio! Reiciendis mollitia est temporibus?</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Portfólio</h2>
+            </button>
+            <div class="content">
+                <ul class="portfolio">
+                    <li>
+                        <h3 class="title github">Doa Leite</h3>
+                        <a href="https://github.com/rafaelcloud83/app-doacao-leite" target="_blank">veja aqui &rarr;</a>
+                    </li>
+                    <li>
+                        <h3 class="title github">Pokedex</h3>
+                        <a href="https://github.com/rafaelcloud83/pokedex" target="_blank">veja aqui &rarr;</a>
+                    </li>
+                    <li>
+                        <h3 class="title github">EstacionaPark</h3>
+                        <a href="https://github.com/rafaelcloud83/park-api" target="_blank">veja aqui &rarr;</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Idiomas</h2>
+            </button>
+            <div class="content">
+                <ul class="languages">
+                    <li>Português</li>
+                    <li>Inglês Básico</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <script src="/assets/js/acordeon.js"></script>
 </body>
 </html>
